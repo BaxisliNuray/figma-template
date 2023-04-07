@@ -1,0 +1,92 @@
+@import"../abstract/variable";
+@import "../layout/grid";
+@import"../base/reset";
+
+#package {
+    height: 20px;
+    margin: 30vh 0;
+    display: flex;
+    
+
+    .container {
+        position: absolute;
+        padding-left: 200px;
+      
+
+        h6 {
+            font-size: 14px;
+            padding-bottom: 20px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.2px;
+            color: $button_color;
+            text-align: left;
+        }
+
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 50px;
+            letter-spacing: 0.2px;
+            text-align: left;
+
+        }
+
+        p {
+            color: $font-color;
+            padding: 30px 0;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.2px;
+            text-align: left;
+        }
+
+        .col-md-3 {
+            padding: 100px 0;
+            .card {
+                border: 1px solid #aaaaaa;
+                width: 70%;
+                height: 30vh;
+                position:relative;
+
+                i {
+                    font-size: 45px;
+                    padding-top: 35px;
+                    padding: 13px 24px 4px 38px;
+                }
+
+                h5 {
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    padding-top: 40px;
+                    letter-spacing: 0.2px;
+                    padding: 13px 24px 4px 38px;
+                    text-align: left;
+                }
+                .line{
+                    border-bottom: 2px solid rgb(164, 12, 12);
+                    padding: 10px 5px;
+                position: absolute;
+                left: 14%;
+                    width: 30%;
+                }
+
+                p {
+
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    letter-spacing: 0.2px;
+                    text-align: left;
+                    height: 288px;
+                    padding: 35px 40px 35px 40px;
+
+
+
+                }
+            }
+        }
+    }
+}

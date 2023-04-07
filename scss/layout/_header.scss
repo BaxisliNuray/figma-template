@@ -1,0 +1,142 @@
+@import"../abstract/variable";
+@import "../layout/grid";
+@import"../base/reset";
+
+header {
+    background-color: transparent;
+    height: 9vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    .nav {
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            display: flex;
+            align-items: center;
+
+            h1 {
+                font-family: "Poppins";
+                font-weight: 600;
+            }
+
+            ul {
+                display: flex;
+                margin-left: 30px;
+
+                li {
+                    padding: 0 30px;
+
+                    a {
+                        font-size: 14px;
+                        font-family: "Poppins";
+                        font-weight: 500;
+                        color: $font-color;
+                    }
+                }
+            }
+        }
+
+        .right {
+            a {
+                color: $button_color;
+                font-size: 14px;
+                margin-right: 60px;
+                font-weight: 500;
+                align-items: center;
+
+            }
+
+            button {
+                background-color: $button_color;
+                color: white;
+                height: 40px;
+                width: 110px;
+                border: none;
+                border-radius: 5px;
+            }
+        }
+    }
+
+      .box-1 {
+        background-color: $box_color;
+         border-bottom-right-radius: 70px;
+         height: 176px;
+         position: absolute;
+         width: 111px;
+         left: 0px;
+         top: 0px;
+     }
+
+     .box-2 {
+         background-color: $box_color;
+         border-bottom-left-radius: 70px;
+         position: absolute;
+         height: 730px;
+         width: 604px;
+         right: 0;
+         top: 0;
+         z-index: -999;
+     }
+
+    #hero {
+        position: absolute;
+        padding-top: 80vh;
+
+        .container {
+            text-align: center;
+
+            h5 {
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: $button_color;
+                margin-bottom: 50px;
+            }
+
+            h1 {
+                font-weight: 700;
+                font-size: 58px;
+                line-height: 80px;
+                letter-spacing: 0.2px;
+            }
+
+            h4 {
+                font-size: 26px;
+                font-weight: 300;
+                line-height: 30px;
+                color: $font-color;
+                letter-spacing: 1.2px;
+                padding: 40px;
+            }
+
+            #buttons{
+                .quote {
+                    background-color: $button_color;
+                    color: $main-color;
+                    font-weight: 600;
+                    height: 50px;
+                    width: 190px;
+                    border: none;
+                    border-radius: 5px;
+                    
+                }
+                .learn {
+                    background-color:$main-color ;
+                    border: 1px solid #90c06d;
+                    color:$button_color ;
+                    height: 50px;
+                    font-weight: 600;
+                    width: 190px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+
+}

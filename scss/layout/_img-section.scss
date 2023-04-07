@@ -1,0 +1,14 @@
+@import "../layout/grid";
+@import"../abstract/variable";
+@import"../base/reset";
+
+
+   main{
+    height: 50vh; 
+    #img{
+        padding-top: 45%;
+        .imgs{
+            position: absolute;
+        }
+    }
+   }
